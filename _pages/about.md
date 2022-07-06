@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a master's student in [the Department of Electronics Engineering](https://ee.cnu.ac.kr/html/ee/sub07/sub07_0701.html) at the Chungnam National University under the supervision of [Prof. Donghyeon Cho](https://sites.google.com/view/cnu-cvip).
 
-My current research interest is virtual reality (VR) and neural rendering (Digital Human).
+My current research interests are virtual reality (VR) and neural rendering (Digital Human).
 I have been developing deep neural network algorithms to implement immersive reality with ETRI's immersive media lab since 2020.
 
 Email: eadyoung@naver.com ; eadgaudiyoung@gmail.com
