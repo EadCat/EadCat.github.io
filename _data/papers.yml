@@ -1,0 +1,27 @@
+2022:
+  - title: "Weakly-Supervised Stitching Network for Real-World Panoramic Image Generation"
+    video: assets/projects/ECCV2022.mp4
+    authors:
+      - Dae-Young Song
+      - Geonsoo Lee
+      - HeeKyung Lee
+      - Gi-Mun Um
+      - Donghyeon Cho
+    venue: ECCV 2022
+    resources: 
+      paper:
+      project page:
+      code:
+
+2021:
+  - title: "End-to-End Image Stitching Network via Multi-Homography Estimation"
+    image: assets/projects/SPL2021.gif
+    authors:
+      - Dae-Young Song
+      - Gi-Mun Um
+      - HeeKyung Lee
+      - Donghyeon Cho
+    venue: IEEE SPL
+    resources:
+      paper: https://ieeexplore.ieee.org/document/9393563
+      project page: https://github.com/EadCat/EEISN_SPL21

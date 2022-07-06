@@ -1,0 +1,23 @@
+2022:
+  - title: "3D Human Neural Rendering"
+    authors:
+      - Electronics and Telecommunications Research Institute (ETRI)
+      - Institute of Information & communications Technology Planning & Evaluation (IITP)
+
+2021:
+  - title: "360 Real-Scene Panorama Generation using Deep Neural Network"
+    authors:
+      - Electronics and Telecommunications Research Institute (ETRI)
+      - Institute of Information & communications Technology Planning & Evaluation (IITP)
+
+2020:
+  - title: "APAP Image Stitching Re-implementation with Python"
+    authors:
+      - Dae-Young Song
+    resources: 
+      code: https://github.com/EadCat/APAP-Image-Stitching
+
+  - title: "Correcting Artifact Caused by Depth Difference"
+    authors:
+      - Electronics and Telecommunications Research Institute (ETRI)
+      
