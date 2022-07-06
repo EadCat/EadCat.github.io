@@ -19,6 +19,10 @@ I'm a master's student in [the Department of Electronics Engineering](https://ee
 My current research interest is virtual reality (VR) and neural rendering (Digital Human).
 I have been developing deep neural network algorithms to implement immersive reality with ETRI's immersive media lab since 2020.
 
+Contact:
+eadyoung@naver.com
+eadgaudiyoung@gmail.com
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `pro.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
