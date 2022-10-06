@@ -9,7 +9,7 @@
       - Donghyeon Cho
     venue: ECCV 2022
     resources: 
-      paper:
+      paper: https://arxiv.org/pdf/2209.05968.pdf
       project page: https://eadcat.github.io/WSSN/
       code:
 
