@@ -11,7 +11,7 @@
     resources: 
       paper: https://arxiv.org/pdf/2209.05968.pdf
       project page: https://eadcat.github.io/WSSN/
-      code:
+      code: https://github.com/EadCat/WeaklySupervisedStitchingNetwork
 
 2021:
   - title: "End-to-End Image Stitching Network via Multi-Homography Estimation"
