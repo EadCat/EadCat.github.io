@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Candidate
+subtitle: Research Scientist
 
 profile:
   align: right
@@ -14,10 +14,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a master's student in [the Department of Electronics Engineering](https://ee.cnu.ac.kr/html/ee/sub07/sub07_0701.html) at the Chungnam National University under the supervision of [Prof. Donghyeon Cho](https://sites.google.com/view/cnu-cvip).
+I'm a research scientist at Electronics and Telecommunications Research Institute (ETRI).
 
-My current research interests are virtual reality (VR) and digital human 3D reconstruction.
-I have been developing deep neural network algorithms to implement immersive reality with ETRI's immersive media lab since 2020.
+Currently, I am working on generative models based on VISION AI.
 
 Email: eadyoung@naver.com ; eadgaudiyoung@gmail.com
 
