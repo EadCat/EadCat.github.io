@@ -14,9 +14,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a research scientist at Electronics and Telecommunications Research Institute (ETRI).
+I'm a research scientist at Electronics and Telecommunications Research Institute (ETRI) (Daejeon, South Korea).
 
-Currently, I am working on generative models based on VISION AI.
+Currently, I am working on generative models based on VISION AI for artworks.
 
 Email: eadyoung@naver.com ; eadgaudiyoung@gmail.com
 
