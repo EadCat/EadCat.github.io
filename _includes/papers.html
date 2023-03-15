@@ -5,12 +5,12 @@
     <li>
       <div class="row">
         {% if entry.video %}
-        <video width="250px", height="200px" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+        <video style="border: 5px outset black; object-fit: cover;" width="265px", height="150px" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
           <source src="{{entry.video}}" type="video/mp4">
         </video>
         {% endif %}
         {% if entry.image %}
-          <img src="{{entry.image}}" width=250px height="125px">
+          <img style="border: 5px outset black" src="{{entry.image}}" width=265px height="150px">
         {% endif %}
 
         <div class="col-sm-8">

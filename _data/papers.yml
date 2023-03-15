@@ -1,3 +1,16 @@
+2023:
+  - title: "DIFu: Depth-guided Implicit Function for Clothed Human Reconstruction"
+    image: assets/projects/CVPR2023.png
+    authors:
+      - Dae-Young Song
+      - HeeKyung Lee
+      - Jeongil Seo
+      - Donghyeon Cho
+    venue: CVPR 2023
+    resources: 
+      paper: 
+      project page: https://eadcat.github.io/DIFu/
+
 2022:
   - title: "Weakly-Supervised Stitching Network for Real-World Panoramic Image Generation"
     video: assets/projects/ECCV2022.mp4
