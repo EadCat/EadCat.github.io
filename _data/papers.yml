@@ -8,7 +8,7 @@
       - Donghyeon Cho
     venue: CVPR 2023
     resources: 
-      paper: 
+      paper: https://openaccess.thecvf.com/content/CVPR2023/papers/Song_DIFu_Depth-Guided_Implicit_Function_for_Clothed_Human_Reconstruction_CVPR_2023_paper.pdf
       project page: https://eadcat.github.io/DIFu/
 
 2022:
@@ -22,7 +22,7 @@
       - Donghyeon Cho
     venue: ECCV 2022
     resources: 
-      paper: https://arxiv.org/pdf/2209.05968.pdf
+      paper: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136760052.pdf
       project page: https://eadcat.github.io/WSSN/
       code: https://github.com/EadCat/WeaklySupervisedStitchingNetwork
 
