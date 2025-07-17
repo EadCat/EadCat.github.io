@@ -33,13 +33,13 @@ body.sticky-bottom-footer {
     ruby-align: center;
   }
 
-  // Shift profile box slightly upward
-  margin-top: -40px;
+  // // Shift profile box slightly upward
+  // margin-top: -40px;
 
-  // Right-shift only the image without affecting text flow
-  img {
-    transform: translateX(30px);
-  }
+  // // Right-shift only the image without affecting text flow
+  // img {
+  //   transform: translateX(30px);
+  // }
 }
 
 // TODO: redefine content layout.
