@@ -1,0 +1,19 @@
+# Build artifacts
+_site/
+
+# Local dependencies / caches
+.bundle/
+.vendor/
+.sass-cache/
+.jekyll-cache/
+
+# Ruby dependencies lockfile (not required for GitHub Pages)
+Gemfile
+Gemfile.lock
+
+# Node dependencies (if added later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db 
