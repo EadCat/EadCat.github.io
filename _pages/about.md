@@ -18,7 +18,7 @@ I’m a researcher at the Electronics and Telecommunications Research Institute 
 
 I received my M.S. degree under the supervision of [Donghyeon Cho](https://scholar.google.com/citations?user=zj-NER4AAAAJ&hl=en).
 
-My current research interests focus on Vision AI for artworks.
+My current research interests lie in Vision AI for artworks.
 
 Email: eadyoung@naver.com; eadgaudiyoung@gmail.com
 
