@@ -5,7 +5,7 @@
     <li>
       <div class="row">
         {% if entry.video %}
-        <video style="border: 5px outset black; object-fit: cover;" width="265px", height="150px" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+        <video style="border: 5px outset black; object-fit: cover;" width="265px", height="auto" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
           <source src="{{entry.video}}" type="video/mp4">
         </video>
         {% endif %}
@@ -30,11 +30,39 @@
                 {%- endif -%}
               {%- endcapture -%}
 
-              {%- if entry.leadauth -%}
-                {%- assign leadauthnum = entry.leadauth | plus: 0 -%}
-                {%- if forloop.index <= leadauthnum -%}
-                  {%- assign author_name = author_name | append: "*" -%}
+              {%- capture idx_str -%}{{ forloop.index }}{%- endcapture -%}
+              {%- assign markers = '' -%}
+
+              {%- if entry.firstauth -%}
+                {%- capture first_raw -%}{{ entry.firstauth }}{%- endcapture -%}
+                {%- assign first_arr = first_raw | replace: '[', '' | replace: ']', '' | split: ',' -%}
+                {%- if first_arr contains idx_str -%}
+                  {%- assign author_name = author_name | replace: '<em>', '<strong>' | replace: '</em>', '</strong>' -%}
+                  {%- unless author_name contains '<strong>' -%}
+                    {%- assign author_name = '<strong>' | append: author_name | append: '</strong>' -%}
+                  {%- endunless -%}
                 {%- endif -%}
+              {%- endif -%}
+
+              {%- comment -%} equal contribution marker † {%- endcomment -%}
+              {%- if entry.equalcontrib -%}
+                {%- assign eq = entry.equalcontrib -%}
+                {%- if eq contains forloop.index or eq contains idx_str -%}
+                  {%- assign markers = markers | append: "†" -%}
+                {%- endif -%}
+              {%- endif -%}
+
+              {%- comment -%} corresponding author marker ‡ {%- endcomment -%}
+              {%- if entry.correspauth -%}
+                {%- capture corr_raw -%}{{ entry.correspauth }}{%- endcapture -%}
+                {%- assign corr_arr = corr_raw | replace: '[', '' | replace: ']', '' | split: ',' -%}
+                {%- if corr_arr contains idx_str -%}
+                  {%- assign markers = markers | append: "‡" -%}
+                {%- endif -%}
+              {%- endif -%}
+
+              {%- if markers != '' -%}
+                {%- assign author_name = author_name | append: '<sup>' | append: markers | append: '</sup>' -%}
               {%- endif -%}
 
               {% if forloop.length == 1 %}

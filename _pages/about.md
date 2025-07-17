@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist
+subtitle: Intelligent Content Recognition Lab @ ETRI
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a research scientist at Electronics and Telecommunications Research Institute (ETRI) (Daejeon, South Korea).
+I’m a researcher at the Electronics and Telecommunications Research Institute (ETRI) in South Korea.
 
-Currently, I am working on generative models based on VISION AI for artworks.
+I received my M.S. degree under the supervision of [Donghyeon Cho](https://scholar.google.com/citations?user=zj-NER4AAAAJ&hl=en).
 
-Email: eadyoung@naver.com ; eadgaudiyoung@gmail.com
+My current research interests focus on Vision AI for artworks.
+
+Email: eadyoung@naver.com; eadgaudiyoung@gmail.com
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `pro.jpg` and put it in the `img/` folder.
 

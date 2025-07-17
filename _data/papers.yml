@@ -1,12 +1,38 @@
+2025:
+  - title: "Progressive Artwork Outpainting via Latent Diffusion Models"
+    video: assets/projects/ICCV2025.mp4
+    authors:
+      - Dae-Young Song
+      - Jung-Jae Yu
+      - Donghyeon Cho
+    venue: ICCV 2025
+    firstauth: 1
+    correspauth: 3
+    resources:
+      paper: 
+
+2024:
+  - title: "Latent Bias Correction in Outpainting Artworks"
+    image: assets/projects/SIG2024.png
+    authors:
+      - Jung-Jae Yu
+      - Dae-Young Song
+    venue: SIGGRAPH Asia 2024
+    equalcontrib: [1, 2]
+    resources:
+      paper: https://dl.acm.org/doi/pdf/10.1145/3681756.3697914
+
 2023:
   - title: "DIFu: Depth-guided Implicit Function for Clothed Human Reconstruction"
-    image: assets/projects/CVPR2023.png
+    video: assets/projects/CVPR2023.mp4
     authors:
       - Dae-Young Song
       - HeeKyung Lee
       - Jeongil Seo
       - Donghyeon Cho
     venue: CVPR 2023
+    firstauth: 1
+    correspauth: 4
     resources: 
       paper: https://openaccess.thecvf.com/content/CVPR2023/papers/Song_DIFu_Depth-Guided_Implicit_Function_for_Clothed_Human_Reconstruction_CVPR_2023_paper.pdf
       project page: https://eadcat.github.io/DIFu/
@@ -21,6 +47,8 @@
       - Gi-Mun Um
       - Donghyeon Cho
     venue: ECCV 2022
+    firstauth: 1
+    correspauth: 5
     resources: 
       paper: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136760052.pdf
       project page: https://eadcat.github.io/WSSN/
@@ -35,6 +63,8 @@
       - HeeKyung Lee
       - Donghyeon Cho
     venue: IEEE SPL
+    firstauth: 1
+    correspauth: 4
     resources:
       paper: https://ieeexplore.ieee.org/document/9393563
       project page: https://github.com/EadCat/EEISN_SPL21
