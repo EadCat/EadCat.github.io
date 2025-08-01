@@ -9,7 +9,7 @@
     firstauth: 1
     correspauth: 3
     resources:
-      paper: 
+      code: https://github.com/EadCat/ProOut
 
 2024:
   - title: "Latent Bias Correction in Outpainting Artworks"
